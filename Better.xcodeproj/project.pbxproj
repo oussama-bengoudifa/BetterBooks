@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD7A10029F73539008EA0C4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7A0FF29F73539008EA0C4 /* SplashView.swift */; };
 		0AE0245529F7168D005B4E06 /* BetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0245429F7168D005B4E06 /* BetterApp.swift */; };
-		0AE0245729F7168D005B4E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0245629F7168D005B4E06 /* ContentView.swift */; };
 		0AE0245929F7168F005B4E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0245829F7168F005B4E06 /* Assets.xcassets */; };
 		0AE0245C29F7168F005B4E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0245B29F7168F005B4E06 /* Preview Assets.xcassets */; };
+		0AE0246629F71A80005B4E06 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0246529F71A80005B4E06 /* OnboardingView.swift */; };
+		0AE0247229F723EE005B4E06 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0246B29F723EE005B4E06 /* Manrope-Bold.ttf */; };
+		0AE0247329F723EE005B4E06 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0246C29F723EE005B4E06 /* Manrope-Light.ttf */; };
+		0AE0247429F723EE005B4E06 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0246D29F723EE005B4E06 /* Manrope-ExtraLight.ttf */; };
+		0AE0247529F723EE005B4E06 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0246E29F723EE005B4E06 /* Manrope-ExtraBold.ttf */; };
+		0AE0247629F723EE005B4E06 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0246F29F723EE005B4E06 /* Manrope-SemiBold.ttf */; };
+		0AE0247729F723EE005B4E06 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0247029F723EE005B4E06 /* Manrope-Regular.ttf */; };
+		0AE0247829F723EE005B4E06 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0247129F723EE005B4E06 /* Manrope-Medium.ttf */; };
+		0AE0247A29F7316D005B4E06 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0247929F7316D005B4E06 /* OnboardingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD7A0FF29F73539008EA0C4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0AE0245129F7168D005B4E06 /* Better.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Better.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE0245429F7168D005B4E06 /* BetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterApp.swift; sourceTree = "<group>"; };
-		0AE0245629F7168D005B4E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AE0245829F7168F005B4E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE0245B29F7168F005B4E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AE0246529F71A80005B4E06 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0AE0246A29F7237A005B4E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0AE0246B29F723EE005B4E06 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		0AE0246C29F723EE005B4E06 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
+		0AE0246D29F723EE005B4E06 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0AE0246E29F723EE005B4E06 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0AE0246F29F723EE005B4E06 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		0AE0247029F723EE005B4E06 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		0AE0247129F723EE005B4E06 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		0AE0247929F7316D005B4E06 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD7A0FE29F7352E008EA0C4 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7A0FF29F73539008EA0C4 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		0AE0244829F7168D005B4E06 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +78,11 @@
 		0AE0245329F7168D005B4E06 /* Better */ = {
 			isa = PBXGroup;
 			children = (
+				0AE0246A29F7237A005B4E06 /* Info.plist */,
+				0AE0246729F7231D005B4E06 /* Fonts */,
+				0AE0246329F71A47005B4E06 /* Components */,
+				0AE0246229F71A37005B4E06 /* Pages */,
 				0AE0245429F7168D005B4E06 /* BetterApp.swift */,
-				0AE0245629F7168D005B4E06 /* ContentView.swift */,
 				0AE0245829F7168F005B4E06 /* Assets.xcassets */,
 				0AE0245A29F7168F005B4E06 /* Preview Content */,
 			);
@@ -65,6 +95,45 @@
 				0AE0245B29F7168F005B4E06 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AE0246229F71A37005B4E06 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7A0FE29F7352E008EA0C4 /* Splash */,
+				0AE0246429F71A5A005B4E06 /* Onboarding */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		0AE0246329F71A47005B4E06 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0AE0246429F71A5A005B4E06 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0246529F71A80005B4E06 /* OnboardingView.swift */,
+				0AE0247929F7316D005B4E06 /* OnboardingModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0AE0246729F7231D005B4E06 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0246B29F723EE005B4E06 /* Manrope-Bold.ttf */,
+				0AE0246E29F723EE005B4E06 /* Manrope-ExtraBold.ttf */,
+				0AE0246D29F723EE005B4E06 /* Manrope-ExtraLight.ttf */,
+				0AE0246C29F723EE005B4E06 /* Manrope-Light.ttf */,
+				0AE0247129F723EE005B4E06 /* Manrope-Medium.ttf */,
+				0AE0247029F723EE005B4E06 /* Manrope-Regular.ttf */,
+				0AE0246F29F723EE005B4E06 /* Manrope-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +194,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE0247729F723EE005B4E06 /* Manrope-Regular.ttf in Resources */,
+				0AE0247329F723EE005B4E06 /* Manrope-Light.ttf in Resources */,
 				0AE0245C29F7168F005B4E06 /* Preview Assets.xcassets in Resources */,
+				0AE0247229F723EE005B4E06 /* Manrope-Bold.ttf in Resources */,
+				0AE0247529F723EE005B4E06 /* Manrope-ExtraBold.ttf in Resources */,
 				0AE0245929F7168F005B4E06 /* Assets.xcassets in Resources */,
+				0AE0247829F723EE005B4E06 /* Manrope-Medium.ttf in Resources */,
+				0AE0247429F723EE005B4E06 /* Manrope-ExtraLight.ttf in Resources */,
+				0AE0247629F723EE005B4E06 /* Manrope-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE0245729F7168D005B4E06 /* ContentView.swift in Sources */,
+				0AE0247A29F7316D005B4E06 /* OnboardingModel.swift in Sources */,
+				0AE0246629F71A80005B4E06 /* OnboardingView.swift in Sources */,
+				0AD7A10029F73539008EA0C4 /* SplashView.swift in Sources */,
 				0AE0245529F7168D005B4E06 /* BetterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Better/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Better/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Better/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Better/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
