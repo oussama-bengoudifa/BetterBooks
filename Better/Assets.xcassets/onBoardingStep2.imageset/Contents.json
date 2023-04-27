@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "onBoardingStep2.png",
+      "filename" : "onBoardingStep2@3x 2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "onBoardingStep2@2x.png",
+      "filename" : "onBoardingStep2@3x 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

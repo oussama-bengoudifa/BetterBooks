@@ -10,6 +10,9 @@ import SwiftUI
 
 struct OnboardingView: View {
     @State var activeStep : Int = 1
+    
+    @State private var willMoveToNextScreen = false
+
     var body: some View {
         VStack(alignment: .leading,spacing: 0){
             HStack{
@@ -46,7 +49,8 @@ struct OnboardingView: View {
                         if activeStep < 4 {
                             activeStep += 1
                         }else{
-                            print("redirect")
+                            UserDefaults.standard.set(true, forKey: "x-seenOnboardingScreens")
+                            willMoveToNextScreen.toggle()
                         }
                     }, label: {
                         Text("Continue")
@@ -67,6 +71,8 @@ struct OnboardingView: View {
             Spacer()
             
         }
+        .navigate(to: LoginView(), when: $willMoveToNextScreen)
+
     }
 }
 
@@ -88,5 +94,33 @@ struct Step: View {
                 .font(.system(size: 14, weight: .bold, design: .default))
                 .foregroundColor(isPrimary ? .white : Color("primaryDark"))
         }
+    }
+}
+
+
+
+extension View {
+    /// Navigate to a new view.
+    /// - Parameters:
+    ///   - view: View to navigate to.
+    ///   - binding: Only navigates when this condition is `true`.
+    func navigate<NewView: View>(to view: NewView, when binding: Binding<Bool>) -> some View {
+        NavigationView {
+            ZStack {
+                self
+                    .navigationBarTitle("")
+                    .navigationBarHidden(true)
+
+                NavigationLink(
+                    destination: view
+                        .navigationBarTitle("")
+                        .navigationBarHidden(true),
+                    isActive: binding
+                ) {
+                    EmptyView()
+                }
+            }
+        }
+        .navigationViewStyle(.stack)
     }
 }

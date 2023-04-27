@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A71BDE829FAB53800646A53 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71BDE729FAB53800646A53 /* GenderView.swift */; };
+		0AA91BC529F7EBC4007DFBF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA91BC429F7EBC4007DFBF3 /* LoginView.swift */; };
+		0AA91BC729F7FD99007DFBF3 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA91BC629F7FD99007DFBF3 /* SignupView.swift */; };
+		0AA91BC929F80D28007DFBF3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA91BC829F80D28007DFBF3 /* WelcomeView.swift */; };
 		0AD7A10029F73539008EA0C4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7A0FF29F73539008EA0C4 /* SplashView.swift */; };
+		0ADEAC8929FB0CA700F1A296 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEAC8829FB0CA700F1A296 /* AgeView.swift */; };
 		0AE0245529F7168D005B4E06 /* BetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0245429F7168D005B4E06 /* BetterApp.swift */; };
 		0AE0245929F7168F005B4E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0245829F7168F005B4E06 /* Assets.xcassets */; };
 		0AE0245C29F7168F005B4E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0245B29F7168F005B4E06 /* Preview Assets.xcassets */; };
@@ -23,7 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A71BDE729FAB53800646A53 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		0AA91BC429F7EBC4007DFBF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0AA91BC629F7FD99007DFBF3 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		0AA91BC829F80D28007DFBF3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		0AD7A0FF29F73539008EA0C4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0ADEAC8829FB0CA700F1A296 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
 		0AE0245129F7168D005B4E06 /* Better.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Better.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE0245429F7168D005B4E06 /* BetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterApp.swift; sourceTree = "<group>"; };
 		0AE0245829F7168F005B4E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A71BDE629FAB52700646A53 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0A71BDE729FAB53800646A53 /* GenderView.swift */,
+				0ADEAC8829FB0CA700F1A296 /* AgeView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0AA91BC329F7EBAF007DFBF3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0AA91BC429F7EBC4007DFBF3 /* LoginView.swift */,
+				0AA91BC629F7FD99007DFBF3 /* SignupView.swift */,
+				0AA91BC829F80D28007DFBF3 /* WelcomeView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		0AD7A0FE29F7352E008EA0C4 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +129,8 @@
 		0AE0246229F71A37005B4E06 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				0A71BDE629FAB52700646A53 /* Discover */,
+				0AA91BC329F7EBAF007DFBF3 /* Auth */,
 				0AD7A0FE29F7352E008EA0C4 /* Splash */,
 				0AE0246429F71A5A005B4E06 /* Onboarding */,
 			);
@@ -213,10 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA91BC729F7FD99007DFBF3 /* SignupView.swift in Sources */,
 				0AE0247A29F7316D005B4E06 /* OnboardingModel.swift in Sources */,
 				0AE0246629F71A80005B4E06 /* OnboardingView.swift in Sources */,
+				0A71BDE829FAB53800646A53 /* GenderView.swift in Sources */,
 				0AD7A10029F73539008EA0C4 /* SplashView.swift in Sources */,
+				0ADEAC8929FB0CA700F1A296 /* AgeView.swift in Sources */,
+				0AA91BC529F7EBC4007DFBF3 /* LoginView.swift in Sources */,
 				0AE0245529F7168D005B4E06 /* BetterApp.swift in Sources */,
+				0AA91BC929F80D28007DFBF3 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
